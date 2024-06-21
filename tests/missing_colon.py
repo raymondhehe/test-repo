@@ -7,5 +7,6 @@ def division(a: float, b: float) -> float
 
 if __name__ == "__main__":
     print(division(123, 15))
-    print (os.getcwd())
-
+    print(os.getcwd())
+    print(os.environ)
+    print(os.environ['HOME'])
